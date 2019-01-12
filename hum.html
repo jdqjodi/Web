@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+
+<!-- Bootstrap -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+<!-- navigation bar -->
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!-- end of navigation bar -->
+
+<div class="container-fluid">
+    <div id="landing_div_one">
+        <h1>Humidity</h1>
+        <img class="img_one" src="/Resources/assets/images/Fig2.png" alt="Fig1">
+        <p> It appears that latitude have little to do with humidity.
+        </p>
+    </div>
+    <div id="landing_div_two">
+        <h1>Visualizations</h1>
+        <img class="img_one" src="/Resources/assets/images/Fig1.png" alt="Fig1">
+        <img class="img_two" src="/Resources/assets/images/Fig2.png" alt="Fig2">
+        <img class="img_three" src="/Resources/assets/images/Fig3.png" alt="Fig3">
+        <img class="img_four" src="/Resources/assets/images/Fig4.png" alt="Fig4">
+    </div>
+</div>
+
+</body>
+
+<!-- footer -->
+<div id="footer-placeholder">
+</div>
+
+<script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+<!-- end of footer  -->

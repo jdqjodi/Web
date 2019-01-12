@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+
+<!-- Bootstrap -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<div class="container-fluid">
+    <div id="data_div_one">
+        <h1> Data </h1>
+        <p> The following table includes all of the data used for plotting during this project.</p>
+        <object data="Resources/cities.htm" class="table" id="obj">  
+        </object>
+    </div>
+</div>
+
+</body>
+
+<!-- footer -->
+<div id="footer-placeholder">
+
+    </div>
+
+<script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+<!-- end of footer  -->

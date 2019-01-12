@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+
+<!-- Bootstrap -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<div class="container-fluid">
+  <div id="comp_div_one">
+      <h1> Comparison: Latitude vs X </h1>
+      <p> Click any plot to get an in-depth analysis.</p>
+    
+    <div class="row">
+      <div class="col-6 col-md-6 col-sm-12 col-xs-12">
+        <h2> vs. Max Temperature </h2>
+        <a href="maxtemp.html"><img class="img_one" src="/Resources/assets/images/Fig1.png" alt="Fig1">
+        </a>
+      </div>
+      <div class="col-6 col-md-6 col-sm-12 col-xs-12">
+        <h2> vs. Humidity </h2>
+        <a href="hum.html"><img class="img_one" src="/Resources/assets/images/Fig2.png" alt="Fig2">
+        </a>
+      </div>
+      <div class="col-6 col-md-6 col-sm-12 col-xs-12">
+        <h2> vs. Cloudiness </h2>
+        <a href="cloud.html"><img class="img_one" src="/Resources/assets/images/Fig3.png" alt="Fig3">
+        </a>
+      </div>
+      <div class="col-6 col-md-6 col-sm-12 col-xs-12">
+        <h2> vs. Wind Speed </h2>
+        <a href="windspd.html"><img class="img_one" src="/Resources/assets/images/Fig4.png" alt="Fig4">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+<!-- footer -->
+<div id="footer-placeholder">
+
+    </div>
+
+<script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+<!-- end of footer  -->
